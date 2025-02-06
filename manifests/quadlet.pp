@@ -66,6 +66,7 @@ define podman::quadlet (
       'volume'  => '-volume',
       'network' => '-network',
       'pod'     => '-pod',
+      'build'   => '-build',
       default   => '',
     }
     $service = "${name}${service_suffix}"
